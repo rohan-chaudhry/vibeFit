@@ -14,6 +14,10 @@
 		1CA9E58E2CFCFB81003A4832 /* vibeFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA9E58D2CFCFB81003A4832 /* vibeFitTests.swift */; };
 		1CA9E5982CFCFB81003A4832 /* vibeFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA9E5972CFCFB81003A4832 /* vibeFitUITests.swift */; };
 		1CA9E59A2CFCFB81003A4832 /* vibeFitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA9E5992CFCFB81003A4832 /* vibeFitUITestsLaunchTests.swift */; };
+		1CA9E5A72CFD0042003A4832 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA9E5A62CFD0042003A4832 /* LocationManager.swift */; };
+		1CA9E5A92CFD0081003A4832 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA9E5A82CFD0081003A4832 /* WeatherService.swift */; };
+		1CA9E5AC2CFD011F003A4832 /* OutfitSuggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA9E5AB2CFD011F003A4832 /* OutfitSuggestion.swift */; };
+		1CA9E5AE2CFD0183003A4832 /* VibeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA9E5AD2CFD0183003A4832 /* VibeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		1CA9E5932CFCFB81003A4832 /* vibeFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vibeFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA9E5972CFCFB81003A4832 /* vibeFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vibeFitUITests.swift; sourceTree = "<group>"; };
 		1CA9E5992CFCFB81003A4832 /* vibeFitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vibeFitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1CA9E5A62CFD0042003A4832 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		1CA9E5A82CFD0081003A4832 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		1CA9E5AB2CFD011F003A4832 /* OutfitSuggestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitSuggestion.swift; sourceTree = "<group>"; };
+		1CA9E5AD2CFD0183003A4832 /* VibeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 		1CA9E5702CFCFB7C003A4832 = {
 			isa = PBXGroup;
 			children = (
+				1CA9E5AB2CFD011F003A4832 /* OutfitSuggestion.swift */,
 				1CA9E57B2CFCFB7C003A4832 /* vibeFit */,
 				1CA9E58C2CFCFB81003A4832 /* vibeFitTests */,
 				1CA9E5962CFCFB81003A4832 /* vibeFitUITests */,
@@ -96,6 +105,9 @@
 			children = (
 				1CA9E57C2CFCFB7C003A4832 /* vibeFitApp.swift */,
 				1CA9E57E2CFCFB7C003A4832 /* ContentView.swift */,
+				1CA9E5AD2CFD0183003A4832 /* VibeView.swift */,
+				1CA9E5A62CFD0042003A4832 /* LocationManager.swift */,
+				1CA9E5A82CFD0081003A4832 /* WeatherService.swift */,
 				1CA9E5802CFCFB80003A4832 /* Assets.xcassets */,
 				1CA9E5822CFCFB80003A4832 /* Preview Content */,
 			);
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA9E5A92CFD0081003A4832 /* WeatherService.swift in Sources */,
 				1CA9E57F2CFCFB7C003A4832 /* ContentView.swift in Sources */,
 				1CA9E57D2CFCFB7C003A4832 /* vibeFitApp.swift in Sources */,
+				1CA9E5AC2CFD011F003A4832 /* OutfitSuggestion.swift in Sources */,
+				1CA9E5AE2CFD0183003A4832 /* VibeView.swift in Sources */,
+				1CA9E5A72CFD0042003A4832 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
