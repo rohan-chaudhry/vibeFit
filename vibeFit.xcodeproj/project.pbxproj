@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CA9E57D2CFCFB7C003A4832 /* vibeFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA9E57C2CFCFB7C003A4832 /* vibeFitApp.swift */; };
+		1CA9E57F2CFCFB7C003A4832 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA9E57E2CFCFB7C003A4832 /* ContentView.swift */; };
+		1CA9E5812CFCFB80003A4832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA9E5802CFCFB80003A4832 /* Assets.xcassets */; };
+		1CA9E5842CFCFB80003A4832 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA9E5832CFCFB80003A4832 /* Preview Assets.xcassets */; };
+		1CA9E58E2CFCFB81003A4832 /* vibeFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA9E58D2CFCFB81003A4832 /* vibeFitTests.swift */; };
+		1CA9E5982CFCFB81003A4832 /* vibeFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA9E5972CFCFB81003A4832 /* vibeFitUITests.swift */; };
+		1CA9E59A2CFCFB81003A4832 /* vibeFitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA9E5992CFCFB81003A4832 /* vibeFitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CA9E58A2CFCFB81003A4832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CA9E5712CFCFB7C003A4832 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CA9E5782CFCFB7C003A4832;
+			remoteInfo = vibeFit;
+		};
+		1CA9E5942CFCFB81003A4832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CA9E5712CFCFB7C003A4832 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CA9E5782CFCFB7C003A4832;
+			remoteInfo = vibeFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CA9E5792CFCFB7C003A4832 /* vibeFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vibeFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA9E57C2CFCFB7C003A4832 /* vibeFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vibeFitApp.swift; sourceTree = "<group>"; };
+		1CA9E57E2CFCFB7C003A4832 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1CA9E5802CFCFB80003A4832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CA9E5832CFCFB80003A4832 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1CA9E5892CFCFB81003A4832 /* vibeFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vibeFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA9E58D2CFCFB81003A4832 /* vibeFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vibeFitTests.swift; sourceTree = "<group>"; };
+		1CA9E5932CFCFB81003A4832 /* vibeFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vibeFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA9E5972CFCFB81003A4832 /* vibeFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vibeFitUITests.swift; sourceTree = "<group>"; };
+		1CA9E5992CFCFB81003A4832 /* vibeFitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vibeFitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CA9E5762CFCFB7C003A4832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA9E5862CFCFB81003A4832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA9E5902CFCFB81003A4832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CA9E5702CFCFB7C003A4832 = {
+			isa = PBXGroup;
+			children = (
+				1CA9E57B2CFCFB7C003A4832 /* vibeFit */,
+				1CA9E58C2CFCFB81003A4832 /* vibeFitTests */,
+				1CA9E5962CFCFB81003A4832 /* vibeFitUITests */,
+				1CA9E57A2CFCFB7C003A4832 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CA9E57A2CFCFB7C003A4832 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CA9E5792CFCFB7C003A4832 /* vibeFit.app */,
+				1CA9E5892CFCFB81003A4832 /* vibeFitTests.xctest */,
+				1CA9E5932CFCFB81003A4832 /* vibeFitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CA9E57B2CFCFB7C003A4832 /* vibeFit */ = {
+			isa = PBXGroup;
+			children = (
+				1CA9E57C2CFCFB7C003A4832 /* vibeFitApp.swift */,
+				1CA9E57E2CFCFB7C003A4832 /* ContentView.swift */,
+				1CA9E5802CFCFB80003A4832 /* Assets.xcassets */,
+				1CA9E5822CFCFB80003A4832 /* Preview Content */,
+			);
+			path = vibeFit;
+			sourceTree = "<group>";
+		};
+		1CA9E5822CFCFB80003A4832 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1CA9E5832CFCFB80003A4832 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1CA9E58C2CFCFB81003A4832 /* vibeFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CA9E58D2CFCFB81003A4832 /* vibeFitTests.swift */,
+			);
+			path = vibeFitTests;
+			sourceTree = "<group>";
+		};
+		1CA9E5962CFCFB81003A4832 /* vibeFitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CA9E5972CFCFB81003A4832 /* vibeFitUITests.swift */,
+				1CA9E5992CFCFB81003A4832 /* vibeFitUITestsLaunchTests.swift */,
+			);
+			path = vibeFitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CA9E5782CFCFB7C003A4832 /* vibeFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA9E59D2CFCFB81003A4832 /* Build configuration list for PBXNativeTarget "vibeFit" */;
+			buildPhases = (
+				1CA9E5752CFCFB7C003A4832 /* Sources */,
+				1CA9E5762CFCFB7C003A4832 /* Frameworks */,
+				1CA9E5772CFCFB7C003A4832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vibeFit;
+			productName = vibeFit;
+			productReference = 1CA9E5792CFCFB7C003A4832 /* vibeFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CA9E5882CFCFB81003A4832 /* vibeFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA9E5A02CFCFB81003A4832 /* Build configuration list for PBXNativeTarget "vibeFitTests" */;
+			buildPhases = (
+				1CA9E5852CFCFB81003A4832 /* Sources */,
+				1CA9E5862CFCFB81003A4832 /* Frameworks */,
+				1CA9E5872CFCFB81003A4832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CA9E58B2CFCFB81003A4832 /* PBXTargetDependency */,
+			);
+			name = vibeFitTests;
+			productName = vibeFitTests;
+			productReference = 1CA9E5892CFCFB81003A4832 /* vibeFitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CA9E5922CFCFB81003A4832 /* vibeFitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA9E5A32CFCFB81003A4832 /* Build configuration list for PBXNativeTarget "vibeFitUITests" */;
+			buildPhases = (
+				1CA9E58F2CFCFB81003A4832 /* Sources */,
+				1CA9E5902CFCFB81003A4832 /* Frameworks */,
+				1CA9E5912CFCFB81003A4832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CA9E5952CFCFB81003A4832 /* PBXTargetDependency */,
+			);
+			name = vibeFitUITests;
+			productName = vibeFitUITests;
+			productReference = 1CA9E5932CFCFB81003A4832 /* vibeFitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CA9E5712CFCFB7C003A4832 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					1CA9E5782CFCFB7C003A4832 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					1CA9E5882CFCFB81003A4832 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 1CA9E5782CFCFB7C003A4832;
+					};
+					1CA9E5922CFCFB81003A4832 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 1CA9E5782CFCFB7C003A4832;
+					};
+				};
+			};
+			buildConfigurationList = 1CA9E5742CFCFB7C003A4832 /* Build configuration list for PBXProject "vibeFit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CA9E5702CFCFB7C003A4832;
+			productRefGroup = 1CA9E57A2CFCFB7C003A4832 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CA9E5782CFCFB7C003A4832 /* vibeFit */,
+				1CA9E5882CFCFB81003A4832 /* vibeFitTests */,
+				1CA9E5922CFCFB81003A4832 /* vibeFitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CA9E5772CFCFB7C003A4832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA9E5842CFCFB80003A4832 /* Preview Assets.xcassets in Resources */,
+				1CA9E5812CFCFB80003A4832 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA9E5872CFCFB81003A4832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA9E5912CFCFB81003A4832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CA9E5752CFCFB7C003A4832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA9E57F2CFCFB7C003A4832 /* ContentView.swift in Sources */,
+				1CA9E57D2CFCFB7C003A4832 /* vibeFitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA9E5852CFCFB81003A4832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA9E58E2CFCFB81003A4832 /* vibeFitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA9E58F2CFCFB81003A4832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA9E59A2CFCFB81003A4832 /* vibeFitUITestsLaunchTests.swift in Sources */,
+				1CA9E5982CFCFB81003A4832 /* vibeFitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CA9E58B2CFCFB81003A4832 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CA9E5782CFCFB7C003A4832 /* vibeFit */;
+			targetProxy = 1CA9E58A2CFCFB81003A4832 /* PBXContainerItemProxy */;
+		};
+		1CA9E5952CFCFB81003A4832 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CA9E5782CFCFB7C003A4832 /* vibeFit */;
+			targetProxy = 1CA9E5942CFCFB81003A4832 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CA9E59B2CFCFB81003A4832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CA9E59C2CFCFB81003A4832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CA9E59E2CFCFB81003A4832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vibeFit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Chaudhry.vibeFit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CA9E59F2CFCFB81003A4832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vibeFit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Chaudhry.vibeFit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1CA9E5A12CFCFB81003A4832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Chaudhry.vibeFitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vibeFit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vibeFit";
+			};
+			name = Debug;
+		};
+		1CA9E5A22CFCFB81003A4832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Chaudhry.vibeFitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vibeFit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vibeFit";
+			};
+			name = Release;
+		};
+		1CA9E5A42CFCFB81003A4832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Chaudhry.vibeFitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vibeFit;
+			};
+			name = Debug;
+		};
+		1CA9E5A52CFCFB81003A4832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Chaudhry.vibeFitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vibeFit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CA9E5742CFCFB7C003A4832 /* Build configuration list for PBXProject "vibeFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA9E59B2CFCFB81003A4832 /* Debug */,
+				1CA9E59C2CFCFB81003A4832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CA9E59D2CFCFB81003A4832 /* Build configuration list for PBXNativeTarget "vibeFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA9E59E2CFCFB81003A4832 /* Debug */,
+				1CA9E59F2CFCFB81003A4832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CA9E5A02CFCFB81003A4832 /* Build configuration list for PBXNativeTarget "vibeFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA9E5A12CFCFB81003A4832 /* Debug */,
+				1CA9E5A22CFCFB81003A4832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CA9E5A32CFCFB81003A4832 /* Build configuration list for PBXNativeTarget "vibeFitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA9E5A42CFCFB81003A4832 /* Debug */,
+				1CA9E5A52CFCFB81003A4832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CA9E5712CFCFB7C003A4832 /* Project object */;
+}
