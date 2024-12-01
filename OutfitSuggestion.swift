@@ -5,6 +5,8 @@
 //  Created by Rohan Chaudhry on 12/1/24.
 //  This suggests the outfit based on weather and user's vibe input 
 
+// TODO: actually have clothes here - like shirts, pants etc 
+
 import Foundation
 
 // Possible vibes
@@ -34,22 +36,8 @@ struct OutfitSuggestion {
         } else if weatherCondition == "Cloudy" {
             outfit += "Sweater, Jacket, Jeans"
         }
-
-        // Adjust based on the vibe
-        switch vibe {
-        case .casual:
-            outfit += " - Casual Style"
-        case .business:
-            outfit += " - Smart Casual Style"
-        case .sporty:
-            outfit += " - Sporty & Comfortable"
-        case .party:
-            outfit += " - Party Ready!"
-        case .chill:
-            outfit += " - Relaxed Vibes"
-        }
         
-        return "Suggested Outfit: \(outfit)"
+        return "\(outfit)"
     }
 }
 

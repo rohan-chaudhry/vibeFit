@@ -9,7 +9,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var temperatureFahrenheit: Double = 70.0  // Hardcoded temperature
     @State private var weatherCondition: String = "Clear"     // Hardcoded weather condition
-    @State private var selectedVibe: Vibe = .casual           // Default vibe
+    @State private var selectedVibe: Vibe = .casual           // Default vibe is set to casual
     @State private var vibeOptions: [Vibe] = [.casual, .business, .sporty, .party, .chill] // List of available vibes
     
     // A list of possible vibes excluding "Surprise Me"
@@ -27,10 +27,11 @@ struct ContentView: View {
 
                 // Suggested outfit section
                 VStack {
-                    Text("Suggested Outfit:")
+                    // Show the heading with the selected vibe
+                    Text("Suggested \(selectedVibe.rawValue.capitalized) Outfit")
                         .font(.title2)
                         .padding(.top, 20)
-                    
+
                     // Get the outfit suggestion based on weather and vibe
                     let outfitSuggestion = OutfitSuggestion.getOutfitSuggestion(weatherCondition: weatherCondition, temperature: temperatureFahrenheit, vibe: selectedVibe)
                     Text(outfitSuggestion)
@@ -70,7 +71,7 @@ struct ContentView: View {
                             Button(action: {
                                 selectedVibe = vibe
                             }) {
-                                Text(vibe.rawValue)
+                                Text(vibe.rawValue.capitalized)
                                     .font(.system(size: 14, weight: .medium))  // Adjust font size and weight
                                     .foregroundColor(.white)
                                     .padding()
